@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&family=Libre+Baskerville:wght@700&display=swap");
+body {
+  /* background-image: url('../parallax-master/examples/assets/images/layer1.png'); */
+  /* background-color: #212529; */
+  background-color: rgb(21, 5, 63);
+  width: 80%;
+  margin: 0 auto;
+}
+
+#main-header {
+  width: 100%;
+  margin-top: 20px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0 30px;
+  padding: 0;
+}
+
+li a {
+  color: rgb(187, 186, 186);
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#detail {
+  width: 80%;
+  margin: auto;
+}
+
+#searching-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+#google-search {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#google-search input {
+  width: 200px;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  padding-left: 30px;
+  background-color: rgb(60, 60, 84);
+  color: rgb(187, 186, 186);
+}
+
+#google-icon {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 18px;
+}
+
+#search-icon {
+  color: rgb(187, 186, 186);
+  background-color: rgb(60, 60, 84);
+  border-radius: 6px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#heading-wrapper {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#heading-wrapper img {
+  height: 65px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+#heading {
+  font-family: "IM Fell DW Pica", serif;
+  color: rgb(164, 228, 243);
+  text-shadow: 0px 0px 20px rgb(135, 213, 239), 2px 2px 20px rgb(53, 192, 239);
+}
+
+#important-links {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media screen and (max-width: 992px) {
+  #important-links {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+#item {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 6px 8px;
+  border-radius: 5px;
+  background-color: rgb(60, 60, 84);
+  text-decoration: none;
+}
+
+#item i {
+  color: rgb(187, 186, 186);
+}
+
+#header-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(187, 186, 186);
+  font-size: 12px;
+}
+
+#helper-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(108, 108, 108);
+  font-size: 10px;
+}
